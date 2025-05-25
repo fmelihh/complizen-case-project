@@ -1,0 +1,29 @@
+[project]
+name = "complizen-case-project"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "aioredis>=2.0.1",
+    "boto3>=1.38.21",
+    "fastapi>=0.115.12",
+    "gradio>=5.31.0",
+    "jupyter>=1.1.1",
+    "loguru>=0.7.3",
+    "lxml>=5.4.0",
+    "networkx>=3.4.2",
+    "pdf2image>=1.17.0",
+    "pendulum>=3.1.0",
+    "plotly>=6.1.1",
+    "prefect>=3.4.3",
+    "psycopg2-binary>=2.9.10",
+    "pytesseract>=0.3.13",
+    "pytz>=2025.2",
+    "ratelimit>=2.2.1",
+    "redis>=6.1.0",
+    "requests>=2.32.3",
+    "sqlalchemy>=2.0.41",
+    "tenacity>=9.1.2",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.34.2",
+]
