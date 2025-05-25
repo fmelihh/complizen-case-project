@@ -34,7 +34,7 @@ class Db510kCrawler(BaseCrawler):
             with get_session() as session:
                 results = (
                     session.query(FDARecordsModel)
-                    .filter(FDARecordsModel.predicate_device.is_(None))
+                    .filter(FDARecordsModel.predicate_devices.is_(None))
                     .limit(page_size)
                     .offset(offset)
                     .all()

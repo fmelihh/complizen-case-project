@@ -17,7 +17,6 @@ def run_summary_parser_task():
 
 
 if __name__ == "__main__":
-    run_summary_parser_task()
     run_summary_parser_task.serve(
         schedule=IntervalSchedule(interval=timedelta(hours=3)),
     )
